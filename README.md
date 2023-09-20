@@ -28,7 +28,6 @@ Este proyecto es una Pokédex simple que muestra información sobre los Pokémon
 1. Clona este repositorio en tu máquina local o descarga los archivos.
 2. Abre el archivo `index.html` en tu navegador web.
 3. Utiliza el menú desplegable para filtrar los Pokémon por tipo.
-4. Haz clic en un Pokémon para ver sus detalles.
 
 ## Contribuir
 
