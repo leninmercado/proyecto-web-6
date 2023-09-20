@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex de Kanto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pokédex de Kanto</h1>
+        <div class="filter">
+            <label for="type-select">Filtrar por tipo:</label>
+            <select id="type-select">
+                <option value="all">Todos</option>
+                <option value="grass">Planta</option>
+                <option value="fire">Fuego</option>
+                <option value="water">Agua</option>
+                <option value="electric">Eléctrico</option>
+                <option value="normal">Normal</option>
+                <option value="ghost">Fantasma</option>
+                <option value="psychic">Psíquico</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <ul id="pokemon-list">
+            <!-- Aquí se mostrarán los Pokémon -->
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
